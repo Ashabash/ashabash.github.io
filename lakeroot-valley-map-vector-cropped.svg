@@ -9675,7 +9675,7 @@
 			<clipPath id="SVGID_32_">
 				<use xlink:href="#SVGID_31_"  overflow="visible"/>
 			</clipPath>
-			<polygon clip-path="url(#SVGID_32_)" points="1063.128,1553.534 1110.316,1569.137 1110.316,1605.469 1076.771,1628.986 
+			<polygon id="hallowmist-crossing" clip-path="url(#SVGID_32_)" points="1063.128,1553.534 1110.316,1569.137 1110.316,1605.469 1076.771,1628.986 
 				1037.574,1616.323 1029.66,1584.438 			"/>
 		</g>
 		<g>
@@ -9745,7 +9745,7 @@
 					<clipPath id="SVGID_46_">
 						<use xlink:href="#SVGID_45_"  overflow="visible"/>
 					</clipPath>
-					<polygon clip-path="url(#SVGID_46_)" points="320.65,539.987 367.836,555.591 367.836,591.923 334.292,615.44 295.095,602.776 
+					<polygon id="lakeroot-beach" clip-path="url(#SVGID_46_)" points="320.65,539.987 367.836,555.591 367.836,591.923 334.292,615.44 295.095,602.776 
 						287.182,570.892 					"/>
 				</g>
 				<g>
@@ -9815,7 +9815,7 @@
 							<clipPath id="SVGID_60_">
 								<use xlink:href="#SVGID_59_"  overflow="visible"/>
 							</clipPath>
-							<polygon clip-path="url(#SVGID_60_)" points="1133.536,260.621 1181.729,276.556 1181.729,313.665 1147.471,337.684 
+							<polygon id="arrowpeak-village" clip-path="url(#SVGID_60_)" points="1133.536,260.621 1181.729,276.556 1181.729,313.665 1147.471,337.684 
 								1107.437,324.749 1099.354,292.186 							"/>
 						</g>
 						<g>
