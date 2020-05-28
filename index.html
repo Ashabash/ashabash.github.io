@@ -10,5 +10,10 @@
 	<div class="map-wrapper">
 		<embed id="map" type="image/svg+xml" style="width: 500px; height: 500px; border:1px solid black; " src="lakeroot-valley-map-vector-cropped.svg" />
 	</div>
+	<script type="text/javascript">
+		document.getElementById('map').addEventListener('load', function() {
+			svgPanZoom(document.getElementById('map'));
+		})
+	</script>
 </body>
 </html>
