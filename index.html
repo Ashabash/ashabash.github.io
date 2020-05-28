@@ -18,6 +18,12 @@
 				panZoomMap.setZoomScaleSensitivity(0.5);
 				panZoomMap.setMinZoom(.85);
 			})
+			document.getElementById('map-2').addEventListener('load', function(){
+				// Will get called after embed element was loaded
+				var panZoomMap = svgPanZoom(document.getElementById('map-2'));
+				panZoomMap.setZoomScaleSensitivity(0.5);
+				panZoomMap.setMinZoom(.85);
+			})
 		</script>
 	</body>
 </html>
