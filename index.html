@@ -12,7 +12,9 @@
 		</div>
 		<script type="text/javascript">
 			document.getElementById('map').addEventListener('load', function() {
-				svgPanZoom(document.getElementById('map'));
+				svgPanZoom(document.getElementById('map'), {
+					setZoomScaleSensitivity: 2;
+				});
 			})
 		</script>
 	</body>
