@@ -11,8 +11,11 @@
 			<embed id="map" type="image/svg+xml" src="lakeroot-valley-map-vector-cropped.svg" />
 		</div>
 		<script type="text/javascript">
-			var panZoomMap = document.getElementById('map').addEventListener('load', function() {svgPanZoom(document.getElementById('map'), {})});
-			panZoomMap.setZoomScaleSensitivity(5);
+			document.getElementById('map').addEventListener('load', function(){
+				// Will get called after embed element was loaded
+				var panZoomMap = svgPanZoom(document.getElementById('map'));
+				panZoomMap.setZoomScaleSensitivity(2);
+			})
 		</script>
 	</body>
 </html>
